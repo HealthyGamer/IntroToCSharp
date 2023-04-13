@@ -84,7 +84,7 @@ namespace PlantGame
                             plant.Energy -= 5;
                             break;
                         case PlantAction.Flower:
-                            if (plant.Growth >= 10)
+                            if (plant.Growth >= 3)
                             {
                                 Console.WriteLine("Congratulations! Your plant has flowered, and you have won the game!");
                                 return;
